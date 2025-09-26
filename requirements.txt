@@ -1,0 +1,7 @@
+fastf1
+pandas
+numpy
+scikit-learn
+matplotlib
+streamlit
+websockets>=15.0.1,<16.0.0
