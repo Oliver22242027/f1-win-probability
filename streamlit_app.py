@@ -8,7 +8,10 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
 # make sure fastf1 has somewhere to cache data
+import os
+os.makedirs(".fastf1cache", exist_ok=True)
 ff1.Cache.enable_cache(".fastf1cache")
+
 
 
 # ---------- helper functions ----------
